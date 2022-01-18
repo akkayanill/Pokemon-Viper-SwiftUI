@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUI_Pokemon_VIPERApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let router = PokemonsRouter()
+            let contentView = router.makePokedexView()
+            contentView
+//            ContentView()
         }
     }
 }

@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		423ED49527971E71009A60C0 /* PokemonEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49427971E71009A60C0 /* PokemonEndpoint.swift */; };
+		423ED49B27971E9F009A60C0 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49727971E9F009A60C0 /* BaseResponse.swift */; };
+		423ED49C27971E9F009A60C0 /* Alamofire+Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49827971E9F009A60C0 /* Alamofire+Logger.swift */; };
+		423ED49D27971E9F009A60C0 /* APISession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49927971E9F009A60C0 /* APISession.swift */; };
+		423ED49E27971E9F009A60C0 /* Alamofire+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49A27971E9F009A60C0 /* Alamofire+Extension.swift */; };
+		423ED4A027971FA8009A60C0 /* ExampleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED49F27971FA8009A60C0 /* ExampleService.swift */; };
+		423ED4A227972390009A60C0 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423ED4A127972390009A60C0 /* PokemonViewModel.swift */; };
+		4249FDF32783709D003ED161 /* PokemonsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249FDF22783709D003ED161 /* PokemonsInteractor.swift */; };
+		4249FDF527837253003ED161 /* PokemonsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249FDF427837253003ED161 /* PokemonsRouter.swift */; };
 		427D8D4A27835D1E003B0B7C /* SwiftUI_Pokemon_VIPERApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D4927835D1E003B0B7C /* SwiftUI_Pokemon_VIPERApp.swift */; };
 		427D8D4C27835D1E003B0B7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D4B27835D1E003B0B7C /* ContentView.swift */; };
 		427D8D4E27835D1E003B0B7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D8D4D27835D1E003B0B7C /* Assets.xcassets */; };
 		427D8D5127835D1E003B0B7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D8D5027835D1E003B0B7C /* Preview Assets.xcassets */; };
+		427D8D58278360B2003B0B7C /* PokedexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D57278360B2003B0B7C /* PokedexView.swift */; };
+		427D8D5A27836160003B0B7C /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D5927836160003B0B7C /* PokemonCell.swift */; };
+		427D8D5D278362E2003B0B7C /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D5C278362E2003B0B7C /* Pokemon.swift */; };
+		427D8D6027836472003B0B7C /* PokemonsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8D5F27836472003B0B7C /* PokemonsPresenter.swift */; };
+		6E9F8A7B60B34CE3FBE9CC19 /* Pods_SwiftUI_Pokemon_VIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9205D5A972581B055F7E53 /* Pods_SwiftUI_Pokemon_VIPER.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		423ED49427971E71009A60C0 /* PokemonEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonEndpoint.swift; sourceTree = "<group>"; };
+		423ED49727971E9F009A60C0 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		423ED49827971E9F009A60C0 /* Alamofire+Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Logger.swift"; sourceTree = "<group>"; };
+		423ED49927971E9F009A60C0 /* APISession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APISession.swift; sourceTree = "<group>"; };
+		423ED49A27971E9F009A60C0 /* Alamofire+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alamofire+Extension.swift"; sourceTree = "<group>"; };
+		423ED49F27971FA8009A60C0 /* ExampleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleService.swift; sourceTree = "<group>"; };
+		423ED4A127972390009A60C0 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		4249FDF22783709D003ED161 /* PokemonsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsInteractor.swift; sourceTree = "<group>"; };
+		4249FDF427837253003ED161 /* PokemonsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsRouter.swift; sourceTree = "<group>"; };
 		427D8D4627835D1E003B0B7C /* SwiftUI-Pokemon-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Pokemon-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D8D4927835D1E003B0B7C /* SwiftUI_Pokemon_VIPERApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Pokemon_VIPERApp.swift; sourceTree = "<group>"; };
 		427D8D4B27835D1E003B0B7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		427D8D4D27835D1E003B0B7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		427D8D5027835D1E003B0B7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		427D8D57278360B2003B0B7C /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
+		427D8D5927836160003B0B7C /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
+		427D8D5C278362E2003B0B7C /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		427D8D5F27836472003B0B7C /* PokemonsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonsPresenter.swift; sourceTree = "<group>"; };
+		7A9205D5A972581B055F7E53 /* Pods_SwiftUI_Pokemon_VIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_Pokemon_VIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828114649B6CF6BB2570EBAF /* Pods-SwiftUI-Pokemon-VIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Pokemon-VIPER.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Pokemon-VIPER/Pods-SwiftUI-Pokemon-VIPER.release.xcconfig"; sourceTree = "<group>"; };
+		885C24A5C4859985033B3933 /* Pods-SwiftUI-Pokemon-VIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI-Pokemon-VIPER.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI-Pokemon-VIPER/Pods-SwiftUI-Pokemon-VIPER.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +56,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9F8A7B60B34CE3FBE9CC19 /* Pods_SwiftUI_Pokemon_VIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25894408D062EB5D2BC437A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				885C24A5C4859985033B3933 /* Pods-SwiftUI-Pokemon-VIPER.debug.xcconfig */,
+				828114649B6CF6BB2570EBAF /* Pods-SwiftUI-Pokemon-VIPER.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		423ED49327971E67009A60C0 /* PokemonEndpoint */ = {
+			isa = PBXGroup;
+			children = (
+				423ED49F27971FA8009A60C0 /* ExampleService.swift */,
+				423ED49427971E71009A60C0 /* PokemonEndpoint.swift */,
+			);
+			path = PokemonEndpoint;
+			sourceTree = "<group>";
+		};
+		423ED49627971E9F009A60C0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				423ED49727971E9F009A60C0 /* BaseResponse.swift */,
+				423ED49827971E9F009A60C0 /* Alamofire+Logger.swift */,
+				423ED49927971E9F009A60C0 /* APISession.swift */,
+				423ED49A27971E9F009A60C0 /* Alamofire+Extension.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		423ED4A327972433009A60C0 /* PokemonCell */ = {
+			isa = PBXGroup;
+			children = (
+				427D8D5927836160003B0B7C /* PokemonCell.swift */,
+				423ED4A127972390009A60C0 /* PokemonViewModel.swift */,
+			);
+			path = PokemonCell;
+			sourceTree = "<group>";
+		};
+		4249FDF627837447003ED161 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4249FDF427837253003ED161 /* PokemonsRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4249FDF72783744E003ED161 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				427D8D5F27836472003B0B7C /* PokemonsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4249FDF827837456003ED161 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4249FDF22783709D003ED161 /* PokemonsInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		427D8D3D27835D1E003B0B7C = {
 			isa = PBXGroup;
 			children = (
 				427D8D4827835D1E003B0B7C /* SwiftUI-Pokemon-VIPER */,
 				427D8D4727835D1E003B0B7C /* Products */,
+				25894408D062EB5D2BC437A7 /* Pods */,
+				46DD1A42744F7C37B6C2096A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +146,13 @@
 		427D8D4827835D1E003B0B7C /* SwiftUI-Pokemon-VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				423ED49627971E9F009A60C0 /* Network */,
+				423ED49327971E67009A60C0 /* PokemonEndpoint */,
+				4249FDF827837456003ED161 /* Interactor */,
+				4249FDF72783744E003ED161 /* Presenter */,
+				4249FDF627837447003ED161 /* Router */,
+				427D8D5E27836355003B0B7C /* Model */,
+				427D8D5B27836193003B0B7C /* Views */,
 				427D8D4927835D1E003B0B7C /* SwiftUI_Pokemon_VIPERApp.swift */,
 				427D8D4B27835D1E003B0B7C /* ContentView.swift */,
 				427D8D4D27835D1E003B0B7C /* Assets.xcassets */,
@@ -67,6 +169,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		427D8D5B27836193003B0B7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				423ED4A327972433009A60C0 /* PokemonCell */,
+				427D8D57278360B2003B0B7C /* PokedexView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		427D8D5E27836355003B0B7C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				427D8D5C278362E2003B0B7C /* Pokemon.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46DD1A42744F7C37B6C2096A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9205D5A972581B055F7E53 /* Pods_SwiftUI_Pokemon_VIPER.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 427D8D5427835D1E003B0B7C /* Build configuration list for PBXNativeTarget "SwiftUI-Pokemon-VIPER" */;
 			buildPhases = (
+				16A1213DC8D6145DFFDC9510 /* [CP] Check Pods Manifest.lock */,
 				427D8D4227835D1E003B0B7C /* Sources */,
 				427D8D4327835D1E003B0B7C /* Frameworks */,
 				427D8D4427835D1E003B0B7C /* Resources */,
+				CBF6B2571ADD78ADA5E161FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +261,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16A1213DC8D6145DFFDC9510 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI-Pokemon-VIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBF6B2571ADD78ADA5E161FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Pokemon-VIPER/Pods-SwiftUI-Pokemon-VIPER-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Pokemon-VIPER/Pods-SwiftUI-Pokemon-VIPER-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI-Pokemon-VIPER/Pods-SwiftUI-Pokemon-VIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		427D8D4227835D1E003B0B7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				423ED49527971E71009A60C0 /* PokemonEndpoint.swift in Sources */,
+				427D8D5D278362E2003B0B7C /* Pokemon.swift in Sources */,
+				423ED49C27971E9F009A60C0 /* Alamofire+Logger.swift in Sources */,
+				427D8D58278360B2003B0B7C /* PokedexView.swift in Sources */,
+				423ED49E27971E9F009A60C0 /* Alamofire+Extension.swift in Sources */,
+				427D8D6027836472003B0B7C /* PokemonsPresenter.swift in Sources */,
+				423ED49D27971E9F009A60C0 /* APISession.swift in Sources */,
+				427D8D5A27836160003B0B7C /* PokemonCell.swift in Sources */,
+				423ED49B27971E9F009A60C0 /* BaseResponse.swift in Sources */,
+				4249FDF527837253003ED161 /* PokemonsRouter.swift in Sources */,
 				427D8D4C27835D1E003B0B7C /* ContentView.swift in Sources */,
+				423ED4A227972390009A60C0 /* PokemonViewModel.swift in Sources */,
 				427D8D4A27835D1E003B0B7C /* SwiftUI_Pokemon_VIPERApp.swift in Sources */,
+				423ED4A027971FA8009A60C0 /* ExampleService.swift in Sources */,
+				4249FDF32783709D003ED161 /* PokemonsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +447,7 @@
 		};
 		427D8D5527835D1E003B0B7C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 885C24A5C4859985033B3933 /* Pods-SwiftUI-Pokemon-VIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,6 +477,7 @@
 		};
 		427D8D5627835D1E003B0B7C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828114649B6CF6BB2570EBAF /* Pods-SwiftUI-Pokemon-VIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
